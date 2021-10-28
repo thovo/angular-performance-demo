@@ -1,0 +1,18 @@
+<h2>Component a</h2>
+
+<div>
+  <button type="button" class="btn btn-dark me-2" (click)="doNothing()">
+    Click!
+  </button>
+
+  <button
+    type="button"
+    class="btn btn-danger"
+    (mousemove)="doNothing()"
+    #mousemove
+  >
+    Mouse move
+  </button>
+</div>
+
+<pre>{{ text }}</pre>
